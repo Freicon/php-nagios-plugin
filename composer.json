@@ -1,0 +1,26 @@
+{
+    "name": "freicon/php-nagios-plugin",
+    "description": "a simple library to create nagios-plugins",
+    "license": "MIT",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Frank Hildebrandt",
+            "email": "frank@fhildebrandt.de",
+            "homepage": "http://fhildebrandt.de",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Freicon\\Nagios\\Plugin\\": "src/Freicon/Nagios/Plugin/"
+        }
+    }
+}
